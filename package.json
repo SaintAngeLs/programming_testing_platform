@@ -20,6 +20,7 @@
     "mongodb": "^5.6.0",
     "mongodb-adapter": "^0.0.4",
     "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
     "next": "13.4.7",
     "next-auth": "^4.22.1",
     "nodemailer": "^6.9.3",

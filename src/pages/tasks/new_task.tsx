@@ -11,8 +11,21 @@ const Home: FC = () => {
       <Layout>
         <main>
             <h1>Add new Task Page</h1>
-            <TaskAddForm/>
-            <h1>Hello, {session?.user?.name}!!!!</h1>
+            <TaskAddForm
+              _id=""
+              title=""
+              description=""
+              points={0}
+              description1={[]}
+              description2={[]}
+              active={false}
+              category=""
+              properties={{}}
+              pdf={null}
+              testingSuite={null}
+              startDate={new Date()} // Add startDate with current date
+              deadline={null} // Set initial deadline as null
+            />
         </main>
       </Layout>
     

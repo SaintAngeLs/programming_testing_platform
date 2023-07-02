@@ -40,7 +40,7 @@ type LayoutProps = {
     }
   
     return (
-      <div className="bg-bgGray min-h-screen p-5">
+      <div className="bg-bgGray min-h-screen">
         <div className="flex md:hidden items-center">
           <button onClick={() => setShowNavbar(true)}>
             <svg
@@ -59,7 +59,7 @@ type LayoutProps = {
           
         </div>
   
-        <div className="bg-bgGray min-h-screen">
+        <div className="bg-bgGray ">
           <Navbar show={showNavbar} />
           <div className="flex-grow p-5">{children}</div>
         </div>
@@ -67,5 +67,5 @@ type LayoutProps = {
     );
   };
   
-  export default Layout;
+export default Layout;
   

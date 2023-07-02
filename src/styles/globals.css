@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input, textarea, select{
+    @apply border-2 border-gray-200 px-1 rounded-md w-full py-1 px-3;
+    @apply mb-2;
+}
+input:focus, textarea:focus, select:focus{
+    @apply border-blue-600;
+}
+h1{
+    @apply text-gray-900 mb-5 text-lg;
+}
+label{
+    @apply text-gray-900 text-sm;
+}
+.form-group {
+    width: 50%;
+    margin: 20px;
+  }
+
+.button-primary-version {
+    @apply bg-blue-900 px-6 py-4 ml-1 text-sm font-bold text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out;
+  }
+  
